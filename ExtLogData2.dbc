@@ -1,0 +1,363 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+VAL_TABLE_ Obstacle_Length_Values 255 "Invalid Value" 254 "Invalid Value" 253 "Invalid Value" 252 "Invalid Value" 251 "Invalid Value" 250 "Invalid Value" 249 "Invalid Value" 248 "Invalid Value" 247 "Invalid Value" 246 "Invalid Value" 245 "Invalid Value" 244 "Invalid Value" 243 "Invalid Value" 242 "Invalid Value" 241 "Invalid Value" 240 "Invalid Value" 239 "Invalid Value" 238 "Invalid Value" 237 "Invalid Value" 236 "Invalid Value" 235 "Invalid Value" 234 "Invalid Value" 233 "Invalid Value" 232 "Invalid Value" 231 "Invalid Value" 230 "Invalid Value" 229 "Invalid Value" 228 "Invalid Value" 227 "Invalid Value" 226 "Invalid Value" 225 "Invalid Value" 224 "Invalid Value" 223 "Invalid Value" 222 "Invalid Value" 221 "Invalid Value" 220 "Invalid Value" 219 "Invalid Value" 218 "Invalid Value" 217 "Invalid Value" 216 "Invalid Value" 215 "Invalid Value" 214 "Invalid Value" 213 "Invalid Value" 212 "Invalid Value" 211 "Invalid Value" 210 "Invalid Value" 209 "Invalid Value" 208 "Invalid Value" 207 "Invalid Value" 206 "Invalid Value" 205 "Invalid Value" 204 "Invalid Value" 203 "Invalid Value" 202 "Invalid Value" 201 "Invalid Value" 200 "Invalid Value" 199 "Invalid Value" 198 "Invalid Value" 197 "Invalid Value" 196 "Invalid Value" 195 "Invalid Value" 194 "Invalid Value" 193 "Invalid Value" 192 "Invalid Value" 191 "Invalid Value" 190 "Invalid Value" 189 "Invalid Value" 188 "Invalid Value" 187 "Invalid Value" 186 "Invalid Value" 185 "Invalid Value" 184 "Invalid Value" 183 "Invalid Value" 182 "Invalid Value" 181 "Invalid Value" 180 "Invalid Value" 179 "Invalid Value" 178 "Invalid Value" 177 "Invalid Value" 176 "Invalid Value" 175 "Invalid Value" 174 "Invalid Value" 173 "Invalid Value" 172 "Invalid Value" 171 "Invalid Value" 170 "Invalid Value" 169 "Invalid Value" 168 "Invalid Value" 167 "Invalid Value" 166 "Invalid Value" 165 "Invalid Value" 164 "Invalid Value" 163 "Invalid Value" 162 "Invalid Value" 161 "Invalid Value" 160 "Invalid Value" 159 "Invalid Value" 158 "Invalid Value" 157 "Invalid Value" 156 "Invalid Value" 155 "Invalid Value" 154 "Invalid Value" 153 "Invalid Value" 152 "Invalid Value" 151 "Invalid Value" 150 "Invalid Value" 149 "Invalid Value" 148 "Invalid Value" 147 "Invalid Value" 146 "Invalid Value" 145 "Invalid Value" 144 "Invalid Value" 143 "Invalid Value" 142 "Invalid Value" 141 "Invalid Value" 140 "Invalid Value" 139 "Invalid Value" 138 "Invalid Value" 137 "Invalid Value" 136 "Invalid Value" 135 "Invalid Value" 134 "Invalid Value" 133 "Invalid Value" 132 "Invalid Value" 131 "Invalid Value" 130 "Invalid Value" 129 "Invalid Value" 128 "Invalid Value" 127 "Invalid Value" 126 "Invalid Value" 125 "Invalid Value" 124 "Invalid Value" 123 "Invalid Value" 122 "Invalid Value" 121 "Invalid Value" 120 "Invalid Value" 119 "Invalid Value" 118 "Invalid Value" 117 "Invalid Value" 116 "Invalid Value" 115 "Invalid Value" 114 "Invalid Value" 113 "Invalid Value" 112 "Invalid Value" 111 "Invalid Value" 110 "Invalid Value" 109 "Invalid Value" 108 "Invalid Value" 107 "Invalid Value" 106 "Invalid Value" 105 "Invalid Value" 104 "Invalid Value" 103 "Invalid Value" 102 "Invalid Value" 101 "Invalid Value" 100 "Invalid Value" 99 "Invalid Value" 98 "Invalid Value" 97 "Invalid Value" 96 "Invalid Value" 95 "Invalid Value" 94 "Invalid Value" 93 "Invalid Value" 92 "Invalid Value" 91 "Invalid Value" 90 "Invalid Value" 89 "Invalid Value" 88 "Invalid Value" 87 "Invalid Value" 86 "Invalid Value" 85 "Invalid Value" 84 "Invalid Value" 83 "Invalid Value" 82 "Invalid Value" 81 "Invalid Value" 80 "Invalid Value" 79 "Invalid Value" 78 "Invalid Value" 77 "Invalid Value" 76 "Invalid Value" 75 "Invalid Value" 74 "Invalid Value" 73 "Invalid Value" 72 "Invalid Value" 71 "Invalid Value" 70 "Invalid Value" 69 "Invalid Value" 68 "Invalid Value" 67 "Invalid Value" 66 "Invalid Value" 65 "Invalid Value" 64 "Invalid Value" 63 "Invalid Value" 62 "31.0" 61 "30.5" 60 "30.0" 59 "29.5" 58 "29.0" 57 "28.5" 56 "28.0" 55 "27.5" 54 "27.0" 53 "26.5" 52 "26.0" 51 "25.5" 50 "25.0" 49 "24.5" 48 "24.0" 47 "23.5" 46 "23.0" 45 "22.5" 44 "22.0" 43 "21.5" 42 "21.0" 41 "20.5" 40 "20.0" 39 "19.5" 38 "19.0" 37 "18.5" 36 "18.0" 35 "17.5" 34 "17.0" 33 "16.5" 32 "16.0" 31 "15.5" 30 "15.0" 29 "14.5" 28 "14.0" 27 "13.5" 26 "13.0" 25 "12.5" 24 "12.0" 23 "11.5" 22 "11.0" 21 "10.5" 20 "10.0" 19 "9.5" 18 "9.0" 17 "8.5" 16 "8.0" 15 "7.5" 14 "7.0" 13 "6.5" 12 "6.0" 11 "5.5" 10 "5.0" 9 "4.5" 8 "4.0" 7 "3.5" 6 "3.0" 5 "2.5" 4 "2.0" 3 "1.5" 2 "1.0" 1 "0.5" 0 "0.0" ;
+VAL_TABLE_ Obstacle_Replaced_Values 1 "Replace in this frame" 0 "Not replaced in this frame" ;
+VAL_TABLE_ Radar_Match_Confidence_Values 5 "high confidence match" 4 "vision  - radar match" 3 "vision  - radar match" 2 "vision  - radar match" 1 "Multi match" 0 "No match" ;
+VAL_TABLE_ CIPV_Flag_Values 1 "CIPV" 0 "Not CIPV" ;
+VAL_TABLE_ Obstacle_Lane_Values 3 "Invalid signal" 2 "Next lane " 1 "Ego lane" 0 "Not assigned" ;
+VAL_TABLE_ Obstacle_Valid_Values 1 "Older valid" 0 "New valid " ;
+VAL_TABLE_ Blinker_Info_Values 4 "Both" 3 "Right" 2 "Left" 1 "Off" 0 "unavailable" ;
+VAL_TABLE_ Cut_in_and_out_Values 4 "cut_out " 3 "cut_in " 2 "out_host_lane " 1 "in_host_lane " 0 "undefined " ;
+VAL_TABLE_ Obstacle_Brake_Lights_Values 1 "object's brake lights are on" 0 "object's brake lights are on" ;
+VAL_TABLE_ Obstacle_Status_Values 6 "Unused" 5 "Parked " 4 "Oncoming" 3 "Moving" 2 "Stopped " 1 "Standing" 0 "Unused" ;
+VAL_TABLE_ Obstacle_Type_Values 7 "Unused" 6 "Unused" 5 "Unused" 4 "Bicycle" 3 "Ped" 2 "Bike" 1 "Truck" 0 "Vehicle" ;
+VAL_TABLE_ LDW_Availability 1 "Available" 0 "Unavailable" ;
+VAL_TABLE_ Close_Car_Values 1 "Close car exists" 0 "No close car" ;
+VAL_TABLE_ Failsafe_Values 8 "Unused" 4 "Unused" 2 "Blur Image" 1 "Low Sun" 0 "No Failsafe" ;
+VAL_TABLE_ Boolean 1 "True" 0 "False" ;
+VAL_TABLE_ GO_Values 15 "Not Calculated" 1 "GO!" 0 "Stop" ;
+
+
+BO_ 1860 Details_ObstacleDataC_4thObs: 8 Vector__XXX
+ SG_ Reserved_9 : 45|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved_8 : 42|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Angle : 48|16@1- (0.01,0) [-327.68|327.67] "degree" Vector__XXX
+ SG_ Obstacle_Replaced : 44|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Object_Accel_X : 32|10@1- (0.03,0) [-15.36|15.33] "M/S2" Vector__XXX
+ SG_ Obstacle_Scale_Change : 16|16@1- (0.0002,0) [-6.5536|6.5534] "pix/sec" Vector__XXX
+ SG_ Obstacle_Angle_Rate : 0|16@1- (0.01,0) [-327.68|327.67] "degree" Vector__XXX
+
+BO_ 1859 Details_ObstacleDataB_4thObs: 8 Vector__XXX
+ SG_ Reserved_7 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved_6 : 55|1@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved_5 : 27|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Matched_Radar_ID : 56|7@1+ (1,0) [0|127] "" Vector__XXX
+ SG_ Radar_Match_Confidence : 52|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Radar_Vel_X : 40|12@1- (0.0625,0) [-128|127.9375] "meters/sec" Vector__XXX
+ SG_ Radar_Pos_X : 28|12@1+ (0.0625,0) [0|255.9375] "meters" Vector__XXX
+ SG_ CIPV_Flag : 26|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lane : 24|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Obstacle_Age : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Obstacle_Width : 8|8@1+ (0.05,0) [0|12.75] "m" Vector__XXX
+ SG_ Obstacle_Length : 0|8@1+ (0.5,0) [0|31] "m" Vector__XXX
+
+BO_ 1858 Details_ObstacleDataA_4thObs: 8 Vector__XXX
+ SG_ Reserved_4 : 60|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved_3 : 55|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reseved_2 : 20|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Valid : 62|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Blinker_Info : 34|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Cut_in_and_out : 37|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Brake_Lights : 59|1@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Status : 56|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Type : 52|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Rel_Vel_X : 40|12@1- (0.0625,0) [-128|127.9375] "meters/sec" Vector__XXX
+ SG_ Obstacle_Pos_Y : 24|10@1- (0.0625,0) [-32|31.9375] "meters" Vector__XXX
+ SG_ Obstacle_Pos_X : 8|12@1+ (0.0625,0) [0|255.9375] "meters" Vector__XXX
+ SG_ Obstacle_ID : 0|8@1+ (1,0) [0|63] "" Vector__XXX
+
+BO_ 1857 Details_ObstacleDataC_3rdObs: 8 Vector__XXX
+ SG_ Reserved_9 : 45|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved_8 : 42|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Angle : 48|16@1- (0.01,0) [-327.68|327.67] "degree" Vector__XXX
+ SG_ Obstacle_Replaced : 44|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Object_Accel_X : 32|10@1- (0.03,0) [-15.36|15.33] "M/S2" Vector__XXX
+ SG_ Obstacle_Scale_Change : 16|16@1- (0.0002,0) [-6.5536|6.5534] "pix/sec" Vector__XXX
+ SG_ Obstacle_Angle_Rate : 0|16@1- (0.01,0) [-327.68|327.67] "degree" Vector__XXX
+
+BO_ 1856 Details_ObstacleDataB_3rdObs: 8 Vector__XXX
+ SG_ Reserved_7 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved_6 : 55|1@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved_5 : 27|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Matched_Radar_ID : 56|7@1+ (1,0) [0|127] "" Vector__XXX
+ SG_ Radar_Match_Confidence : 52|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Radar_Vel_X : 40|12@1- (0.0625,0) [-128|127.9375] "meters/sec" Vector__XXX
+ SG_ Radar_Pos_X : 28|12@1+ (0.0625,0) [0|255.9375] "meters" Vector__XXX
+ SG_ CIPV_Flag : 26|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lane : 24|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Obstacle_Age : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Obstacle_Width : 8|8@1+ (0.05,0) [0|12.75] "m" Vector__XXX
+ SG_ Obstacle_Length : 0|8@1+ (0.5,0) [0|31] "m" Vector__XXX
+
+BO_ 1855 Details_ObstacleDataA_3rdObs: 8 Vector__XXX
+ SG_ Reserved_4 : 60|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved_3 : 55|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reseved_2 : 20|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Valid : 62|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Blinker_Info : 34|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Cut_in_and_out : 37|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Brake_Lights : 59|1@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Status : 56|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Type : 52|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Rel_Vel_X : 40|12@1- (0.0625,0) [-128|127.9375] "meters/sec" Vector__XXX
+ SG_ Obstacle_Pos_Y : 24|10@1- (0.0625,0) [-32|31.9375] "meters" Vector__XXX
+ SG_ Obstacle_Pos_X : 8|12@1+ (0.0625,0) [0|255.9375] "meters" Vector__XXX
+ SG_ Obstacle_ID : 0|8@1+ (1,0) [0|63] "" Vector__XXX
+
+BO_ 1854 Details_ObstacleDataC_2ndObs: 8 Vector__XXX
+ SG_ Reserved_9 : 45|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved_8 : 42|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Angle : 48|16@1- (0.01,0) [-327.68|327.67] "degree" Vector__XXX
+ SG_ Obstacle_Replaced : 44|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Object_Accel_X : 32|10@1- (0.03,0) [-15.36|15.33] "M/S2" Vector__XXX
+ SG_ Obstacle_Scale_Change : 16|16@1- (0.0002,0) [-6.5536|6.5534] "pix/sec" Vector__XXX
+ SG_ Obstacle_Angle_Rate : 0|16@1- (0.01,0) [-327.68|327.67] "degree" Vector__XXX
+
+BO_ 1853 Details_ObstacleDataB_2ndObs: 8 Vector__XXX
+ SG_ Reserved_7 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved_6 : 55|1@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved_5 : 27|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Matched_Radar_ID : 56|7@1+ (1,0) [0|127] "" Vector__XXX
+ SG_ Radar_Match_Confidence : 52|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Radar_Vel_X : 40|12@1- (0.0625,0) [-128|127.9375] "meters/sec" Vector__XXX
+ SG_ Radar_Pos_X : 28|12@1+ (0.0625,0) [0|255.9375] "meters" Vector__XXX
+ SG_ CIPV_Flag : 26|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lane : 24|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Obstacle_Age : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Obstacle_Width : 8|8@1+ (0.05,0) [0|12.75] "m" Vector__XXX
+ SG_ Obstacle_Length : 0|8@1+ (0.5,0) [0|31] "m" Vector__XXX
+
+BO_ 1852 Details_ObstacleDataA_2ndObs: 8 Vector__XXX
+ SG_ Reserved_4 : 60|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved_3 : 55|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reseved_2 : 20|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Valid : 62|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Blinker_Info : 34|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Cut_in_and_out : 37|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Brake_Lights : 59|1@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Status : 56|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Type : 52|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Rel_Vel_X : 40|12@1- (0.0625,0) [-128|127.9375] "meters/sec" Vector__XXX
+ SG_ Obstacle_Pos_Y : 24|10@1- (0.0625,0) [-32|31.9375] "meters" Vector__XXX
+ SG_ Obstacle_Pos_X : 8|12@1+ (0.0625,0) [0|255.9375] "meters" Vector__XXX
+ SG_ Obstacle_ID : 0|8@1+ (1,0) [0|63] "" Vector__XXX
+
+BO_ 1851 Details_ObstacleDataC: 8 Vector__XXX
+ SG_ Reserved_9 : 45|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved_8 : 42|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Angle : 48|16@1- (0.01,0) [-327.68|327.67] "degree" Vector__XXX
+ SG_ Obstacle_Replaced : 44|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Object_Accel_X : 32|10@1- (0.03,0) [-15.36|15.33] "m/S2" Vector__XXX
+ SG_ Obstacle_Scale_Change : 16|16@1- (0.0002,0) [-6.5536|6.5534] "pix/sec" Vector__XXX
+ SG_ Obstacle_Angle_Rate : 0|16@1- (0.01,0) [-327.68|327.67] "degree" Vector__XXX
+
+BO_ 1850 Details_ObstacleDataB: 8 Vector__XXX
+ SG_ Reserved_7 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved_6 : 55|1@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved_5 : 27|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Matched_Radar_ID : 56|7@1+ (1,0) [0|127] "" Vector__XXX
+ SG_ Radar_Match_Confidence : 52|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Radar_Vel_X : 40|12@1- (0.0625,0) [-128|127.9375] "meters/sec" Vector__XXX
+ SG_ Radar_Pos_X : 28|12@1+ (0.0625,0) [0|255.9375] "meters" Vector__XXX
+ SG_ CIPV_Flag : 26|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Lane : 24|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Obstacle_Age : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Obstacle_Width : 8|8@1+ (0.05,0) [0|12.75] "meters" Vector__XXX
+ SG_ Obstacle_Length : 0|8@1+ (0.5,0) [0|31] "meters" Vector__XXX
+
+BO_ 1849 Details_ObstacleDataA: 8 Vector__XXX
+ SG_ Reserved_4 : 60|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved_3 : 55|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reseved_2 : 20|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Valid : 62|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Blinker_Info : 34|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Cut_in_and_out : 37|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Brake_Lights : 59|1@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Obstacle_Status : 56|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Type : 52|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Rel_Vel_X : 40|12@1- (0.0625,0) [-128|127.9375] "meters/sec" Vector__XXX
+ SG_ Obstacle_Pos_Y : 24|10@1- (0.0625,0) [-32|31.9375] "meters" Vector__XXX
+ SG_ Obstacle_Pos_X : 8|12@1+ (0.0625,0) [0|255.9375] "meters" Vector__XXX
+ SG_ Obstacle_ID : 0|8@1+ (1,0) [0|63] "" Vector__XXX
+
+BO_ 1848 Details_ObstacleStatus: 6 Vector__XXX
+ SG_ Reserved_10 : 45|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Failsafe : 41|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Close_car : 40|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Protocol_Version : 32|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ GO : 28|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Right_close_rang_cut_in : 27|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Left_close_rang_cut_in : 26|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Active_Version_Number_Section : 24|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Application_Version : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Timestamp : 8|8@1+ (1,0) [0|255] "ms" Vector__XXX
+ SG_ Num_Obstacles : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1847 Details_Lane: 8 Vector__XXX
+ SG_ Reserved_1 : 31|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Left_LDW_Availability : 30|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Right_LDW_Availability : 29|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Yaw_Angle : 32|16@1- (0.0009765625,0) [-32|31.999023438] "radians" Vector__XXX
+ SG_ Pitch_Angle : 48|16@1- (1.90734E-006,0) [-0.06249971712|0.06249780978] "radians" Vector__XXX
+ SG_ CA_Construction_Area : 28|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lane_Heading : 16|12@1- (0.0005,0) [-1|1] "" Vector__XXX
+ SG_ Lane_Curvature : 0|16@1- (3.81E-006,0) [-0.12484608|0.12484227] "1/meters" Vector__XXX
+
+BO_ 1616 Fixed_FOE_signals: 8 Vector__XXX
+ SG_ Fixed_Horizon : 32|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Fixed_Yaw : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+
+
+CM_ BO_ 1860 "First Obstacle";
+CM_ SG_ 1860 Obstacle_Replaced "Bool";
+CM_ SG_ 1860 Object_Accel_X "Invalid value: 200h";
+CM_ SG_ 1860 Obstacle_Scale_Change "Invalid value: 7FFh";
+CM_ BO_ 1859 "First Obstacle";
+CM_ SG_ 1859 Matched_Radar_ID "Invalid value: 7fh";
+CM_ SG_ 1859 Radar_Match_Confidence "Invalid value: 0h";
+CM_ SG_ 1859 Radar_Vel_X "Invalid value: 800h (also in case on no radar target matched)";
+CM_ SG_ 1859 Obstacle_Width "Invalid value: FFh";
+CM_ SG_ 1859 Obstacle_Length "Invalid value: 3Fh";
+CM_ BO_ 1858 "First Obstacle";
+CM_ SG_ 1858 Obstacle_Rel_Vel_X "Invalid value: 800h";
+CM_ SG_ 1858 Obstacle_Pos_Y "Invalid value: 200h";
+CM_ SG_ 1858 Obstacle_Pos_X "Invalid value: FFFh";
+CM_ BO_ 1857 "First Obstacle";
+CM_ SG_ 1857 Obstacle_Replaced "Bool";
+CM_ SG_ 1857 Object_Accel_X "Invalid value: 200h";
+CM_ SG_ 1857 Obstacle_Scale_Change "Invalid value: 7FFh";
+CM_ BO_ 1856 "First Obstacle";
+CM_ SG_ 1856 Matched_Radar_ID "Invalid value: 7fh";
+CM_ SG_ 1856 Radar_Match_Confidence "Invalid value: 0h";
+CM_ SG_ 1856 Radar_Vel_X "Invalid value: 800h (also in case on no radar target matched)";
+CM_ SG_ 1856 Obstacle_Width "Invalid value: FFh";
+CM_ SG_ 1856 Obstacle_Length "Invalid value: 3Fh";
+CM_ BO_ 1855 "First Obstacle";
+CM_ SG_ 1855 Obstacle_Rel_Vel_X "Invalid value: 800h";
+CM_ SG_ 1855 Obstacle_Pos_Y "Invalid value: 200h";
+CM_ SG_ 1855 Obstacle_Pos_X "Invalid value: FFFh";
+CM_ BO_ 1854 "First Obstacle";
+CM_ SG_ 1854 Obstacle_Replaced "Bool";
+CM_ SG_ 1854 Object_Accel_X "Invalid value: 200h";
+CM_ SG_ 1854 Obstacle_Scale_Change "Invalid value: 7FFh";
+CM_ BO_ 1853 "First Obstacle";
+CM_ SG_ 1853 Matched_Radar_ID "Invalid value: 7fh";
+CM_ SG_ 1853 Radar_Match_Confidence "Invalid value: 0h";
+CM_ SG_ 1853 Radar_Vel_X "Invalid value: 800h (also in case on no radar target matched)";
+CM_ SG_ 1853 Obstacle_Width "Invalid value: FFh";
+CM_ SG_ 1853 Obstacle_Length "Invalid value: 3Fh";
+CM_ BO_ 1852 "First Obstacle";
+CM_ SG_ 1852 Obstacle_Rel_Vel_X "Invalid value: 800h";
+CM_ SG_ 1852 Obstacle_Pos_Y "Invalid value: 200h";
+CM_ SG_ 1852 Obstacle_Pos_X "Invalid value: FFFh";
+CM_ BO_ 1851 "First Obstacle";
+CM_ SG_ 1851 Obstacle_Replaced "Bool";
+CM_ SG_ 1851 Object_Accel_X "Invalid value: 200h";
+CM_ SG_ 1851 Obstacle_Scale_Change "Invalid value: 7FFh";
+CM_ BO_ 1850 "First Obstacle";
+CM_ SG_ 1850 Matched_Radar_ID "Invalid value: 7fh";
+CM_ SG_ 1850 Radar_Match_Confidence "Invalid value: 0h";
+CM_ SG_ 1850 Radar_Vel_X "Invalid value: 800h (also in case on no radar target matched)";
+CM_ SG_ 1850 Obstacle_Width "Invalid value: FFh";
+CM_ SG_ 1850 Obstacle_Length "Invalid value: 3Fh";
+CM_ BO_ 1849 "First Obstacle";
+CM_ SG_ 1849 Obstacle_Rel_Vel_X "Invalid value: 800h";
+CM_ SG_ 1849 Obstacle_Pos_Y "Invalid value: 200h";
+CM_ SG_ 1849 Obstacle_Pos_X "Invalid value: FFFh";
+CM_ SG_ 1848 Close_car "Bool";
+CM_ SG_ 1847 CA_Construction_Area "Bool";
+CM_ SG_ 1847 Lane_Heading "Invalid value: 800h";
+CM_ SG_ 1847 Lane_Curvature "Invalid value: 8000h";
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_ BU_  "ECU" STRING ;
+BA_DEF_ BU_  "CANoeJitterMax" INT 0 0;
+BA_DEF_ BU_  "CANoeJitterMin" INT 0 0;
+BA_DEF_ BU_  "CANoeDrift" INT 0 0;
+BA_DEF_ BU_  "CANoeStartDelay" INT 0 0;
+BA_DEF_DEF_  "BusType" "";
+BA_DEF_DEF_  "NodeLayerModules" "";
+BA_DEF_DEF_  "ECU" "";
+BA_DEF_DEF_  "CANoeJitterMax" 0;
+BA_DEF_DEF_  "CANoeJitterMin" 0;
+BA_DEF_DEF_  "CANoeDrift" 0;
+BA_DEF_DEF_  "CANoeStartDelay" 0;
+VAL_ 1860 Obstacle_Replaced 1 "Replace in this frame" 0 "Not replaced in this frame" ;
+VAL_ 1859 Radar_Match_Confidence 5 "high confidence match" 4 "vision  - radar match" 3 "vision  - radar match" 2 "vision  - radar match" 1 "Multi match" 0 "No match" ;
+VAL_ 1859 CIPV_Flag 1 "CIPV" 0 "Not CIPV" ;
+VAL_ 1859 Obstacle_Lane 3 "Invalid signal" 2 "Next lane " 1 "Ego lane" 0 "Not assigned" ;
+VAL_ 1859 Obstacle_Length 255 "Invalid Value" 254 "Invalid Value" 253 "Invalid Value" 252 "Invalid Value" 251 "Invalid Value" 250 "Invalid Value" 249 "Invalid Value" 248 "Invalid Value" 247 "Invalid Value" 246 "Invalid Value" 245 "Invalid Value" 244 "Invalid Value" 243 "Invalid Value" 242 "Invalid Value" 241 "Invalid Value" 240 "Invalid Value" 239 "Invalid Value" 238 "Invalid Value" 237 "Invalid Value" 236 "Invalid Value" 235 "Invalid Value" 234 "Invalid Value" 233 "Invalid Value" 232 "Invalid Value" 231 "Invalid Value" 230 "Invalid Value" 229 "Invalid Value" 228 "Invalid Value" 227 "Invalid Value" 226 "Invalid Value" 225 "Invalid Value" 224 "Invalid Value" 223 "Invalid Value" 222 "Invalid Value" 221 "Invalid Value" 220 "Invalid Value" 219 "Invalid Value" 218 "Invalid Value" 217 "Invalid Value" 216 "Invalid Value" 215 "Invalid Value" 214 "Invalid Value" 213 "Invalid Value" 212 "Invalid Value" 211 "Invalid Value" 210 "Invalid Value" 209 "Invalid Value" 208 "Invalid Value" 207 "Invalid Value" 206 "Invalid Value" 205 "Invalid Value" 204 "Invalid Value" 203 "Invalid Value" 202 "Invalid Value" 201 "Invalid Value" 200 "Invalid Value" 199 "Invalid Value" 198 "Invalid Value" 197 "Invalid Value" 196 "Invalid Value" 195 "Invalid Value" 194 "Invalid Value" 193 "Invalid Value" 192 "Invalid Value" 191 "Invalid Value" 190 "Invalid Value" 189 "Invalid Value" 188 "Invalid Value" 187 "Invalid Value" 186 "Invalid Value" 185 "Invalid Value" 184 "Invalid Value" 183 "Invalid Value" 182 "Invalid Value" 181 "Invalid Value" 180 "Invalid Value" 179 "Invalid Value" 178 "Invalid Value" 177 "Invalid Value" 176 "Invalid Value" 175 "Invalid Value" 174 "Invalid Value" 173 "Invalid Value" 172 "Invalid Value" 171 "Invalid Value" 170 "Invalid Value" 169 "Invalid Value" 168 "Invalid Value" 167 "Invalid Value" 166 "Invalid Value" 165 "Invalid Value" 164 "Invalid Value" 163 "Invalid Value" 162 "Invalid Value" 161 "Invalid Value" 160 "Invalid Value" 159 "Invalid Value" 158 "Invalid Value" 157 "Invalid Value" 156 "Invalid Value" 155 "Invalid Value" 154 "Invalid Value" 153 "Invalid Value" 152 "Invalid Value" 151 "Invalid Value" 150 "Invalid Value" 149 "Invalid Value" 148 "Invalid Value" 147 "Invalid Value" 146 "Invalid Value" 145 "Invalid Value" 144 "Invalid Value" 143 "Invalid Value" 142 "Invalid Value" 141 "Invalid Value" 140 "Invalid Value" 139 "Invalid Value" 138 "Invalid Value" 137 "Invalid Value" 136 "Invalid Value" 135 "Invalid Value" 134 "Invalid Value" 133 "Invalid Value" 132 "Invalid Value" 131 "Invalid Value" 130 "Invalid Value" 129 "Invalid Value" 128 "Invalid Value" 127 "Invalid Value" 126 "Invalid Value" 125 "Invalid Value" 124 "Invalid Value" 123 "Invalid Value" 122 "Invalid Value" 121 "Invalid Value" 120 "Invalid Value" 119 "Invalid Value" 118 "Invalid Value" 117 "Invalid Value" 116 "Invalid Value" 115 "Invalid Value" 114 "Invalid Value" 113 "Invalid Value" 112 "Invalid Value" 111 "Invalid Value" 110 "Invalid Value" 109 "Invalid Value" 108 "Invalid Value" 107 "Invalid Value" 106 "Invalid Value" 105 "Invalid Value" 104 "Invalid Value" 103 "Invalid Value" 102 "Invalid Value" 101 "Invalid Value" 100 "Invalid Value" 99 "Invalid Value" 98 "Invalid Value" 97 "Invalid Value" 96 "Invalid Value" 95 "Invalid Value" 94 "Invalid Value" 93 "Invalid Value" 92 "Invalid Value" 91 "Invalid Value" 90 "Invalid Value" 89 "Invalid Value" 88 "Invalid Value" 87 "Invalid Value" 86 "Invalid Value" 85 "Invalid Value" 84 "Invalid Value" 83 "Invalid Value" 82 "Invalid Value" 81 "Invalid Value" 80 "Invalid Value" 79 "Invalid Value" 78 "Invalid Value" 77 "Invalid Value" 76 "Invalid Value" 75 "Invalid Value" 74 "Invalid Value" 73 "Invalid Value" 72 "Invalid Value" 71 "Invalid Value" 70 "Invalid Value" 69 "Invalid Value" 68 "Invalid Value" 67 "Invalid Value" 66 "Invalid Value" 65 "Invalid Value" 64 "Invalid Value" 63 "Invalid Value" 62 "31.0" 61 "30.5" 60 "30.0" 59 "29.5" 58 "29.0" 57 "28.5" 56 "28.0" 55 "27.5" 54 "27.0" 53 "26.5" 52 "26.0" 51 "25.5" 50 "25.0" 49 "24.5" 48 "24.0" 47 "23.5" 46 "23.0" 45 "22.5" 44 "22.0" 43 "21.5" 42 "21.0" 41 "20.5" 40 "20.0" 39 "19.5" 38 "19.0" 37 "18.5" 36 "18.0" 35 "17.5" 34 "17.0" 33 "16.5" 32 "16.0" 31 "15.5" 30 "15.0" 29 "14.5" 28 "14.0" 27 "13.5" 26 "13.0" 25 "12.5" 24 "12.0" 23 "11.5" 22 "11.0" 21 "10.5" 20 "10.0" 19 "9.5" 18 "9.0" 17 "8.5" 16 "8.0" 15 "7.5" 14 "7.0" 13 "6.5" 12 "6.0" 11 "5.5" 10 "5.0" 9 "4.5" 8 "4.0" 7 "3.5" 6 "3.0" 5 "2.5" 4 "2.0" 3 "1.5" 2 "1.0" 1 "0.5" 0 "0.0" ;
+VAL_ 1858 Obstacle_Valid 2 "Older valid" 1 "New valid " ;
+VAL_ 1858 Blinker_Info 4 "Both" 3 "Right" 2 "Left" 1 "Off" 0 "unavailable" ;
+VAL_ 1858 Cut_in_and_out 4 "cut_out " 3 "cut_in " 2 "out_host_lane " 1 "in_host_lane " 0 "undefined " ;
+VAL_ 1858 Obstacle_Brake_Lights 1 "object's brake lights are on" 0 "object's brake lights are off" ;
+VAL_ 1858 Obstacle_Status 6 "Unused" 5 "Parked " 4 "Oncoming" 3 "Moving" 2 "Stopped " 1 "Standing" 0 "Unused" ;
+VAL_ 1858 Obstacle_Type 7 "Unused" 6 "Unused" 5 "Unused" 4 "Bicycle" 3 "Ped" 2 "Bike" 1 "Truck" 0 "Vehicle" ;
+VAL_ 1857 Obstacle_Replaced 1 "Replace in this frame" 0 "Not replaced in this frame" ;
+VAL_ 1856 Radar_Match_Confidence 5 "high confidence match" 4 "vision  - radar match" 3 "vision  - radar match" 2 "vision  - radar match" 1 "Multi match" 0 "No match" ;
+VAL_ 1856 CIPV_Flag 1 "CIPV" 0 "Not CIPV" ;
+VAL_ 1856 Obstacle_Lane 3 "Invalid signal" 2 "Next lane " 1 "Ego lane" 0 "Not assigned" ;
+VAL_ 1856 Obstacle_Length 255 "Invalid Value" 254 "Invalid Value" 253 "Invalid Value" 252 "Invalid Value" 251 "Invalid Value" 250 "Invalid Value" 249 "Invalid Value" 248 "Invalid Value" 247 "Invalid Value" 246 "Invalid Value" 245 "Invalid Value" 244 "Invalid Value" 243 "Invalid Value" 242 "Invalid Value" 241 "Invalid Value" 240 "Invalid Value" 239 "Invalid Value" 238 "Invalid Value" 237 "Invalid Value" 236 "Invalid Value" 235 "Invalid Value" 234 "Invalid Value" 233 "Invalid Value" 232 "Invalid Value" 231 "Invalid Value" 230 "Invalid Value" 229 "Invalid Value" 228 "Invalid Value" 227 "Invalid Value" 226 "Invalid Value" 225 "Invalid Value" 224 "Invalid Value" 223 "Invalid Value" 222 "Invalid Value" 221 "Invalid Value" 220 "Invalid Value" 219 "Invalid Value" 218 "Invalid Value" 217 "Invalid Value" 216 "Invalid Value" 215 "Invalid Value" 214 "Invalid Value" 213 "Invalid Value" 212 "Invalid Value" 211 "Invalid Value" 210 "Invalid Value" 209 "Invalid Value" 208 "Invalid Value" 207 "Invalid Value" 206 "Invalid Value" 205 "Invalid Value" 204 "Invalid Value" 203 "Invalid Value" 202 "Invalid Value" 201 "Invalid Value" 200 "Invalid Value" 199 "Invalid Value" 198 "Invalid Value" 197 "Invalid Value" 196 "Invalid Value" 195 "Invalid Value" 194 "Invalid Value" 193 "Invalid Value" 192 "Invalid Value" 191 "Invalid Value" 190 "Invalid Value" 189 "Invalid Value" 188 "Invalid Value" 187 "Invalid Value" 186 "Invalid Value" 185 "Invalid Value" 184 "Invalid Value" 183 "Invalid Value" 182 "Invalid Value" 181 "Invalid Value" 180 "Invalid Value" 179 "Invalid Value" 178 "Invalid Value" 177 "Invalid Value" 176 "Invalid Value" 175 "Invalid Value" 174 "Invalid Value" 173 "Invalid Value" 172 "Invalid Value" 171 "Invalid Value" 170 "Invalid Value" 169 "Invalid Value" 168 "Invalid Value" 167 "Invalid Value" 166 "Invalid Value" 165 "Invalid Value" 164 "Invalid Value" 163 "Invalid Value" 162 "Invalid Value" 161 "Invalid Value" 160 "Invalid Value" 159 "Invalid Value" 158 "Invalid Value" 157 "Invalid Value" 156 "Invalid Value" 155 "Invalid Value" 154 "Invalid Value" 153 "Invalid Value" 152 "Invalid Value" 151 "Invalid Value" 150 "Invalid Value" 149 "Invalid Value" 148 "Invalid Value" 147 "Invalid Value" 146 "Invalid Value" 145 "Invalid Value" 144 "Invalid Value" 143 "Invalid Value" 142 "Invalid Value" 141 "Invalid Value" 140 "Invalid Value" 139 "Invalid Value" 138 "Invalid Value" 137 "Invalid Value" 136 "Invalid Value" 135 "Invalid Value" 134 "Invalid Value" 133 "Invalid Value" 132 "Invalid Value" 131 "Invalid Value" 130 "Invalid Value" 129 "Invalid Value" 128 "Invalid Value" 127 "Invalid Value" 126 "Invalid Value" 125 "Invalid Value" 124 "Invalid Value" 123 "Invalid Value" 122 "Invalid Value" 121 "Invalid Value" 120 "Invalid Value" 119 "Invalid Value" 118 "Invalid Value" 117 "Invalid Value" 116 "Invalid Value" 115 "Invalid Value" 114 "Invalid Value" 113 "Invalid Value" 112 "Invalid Value" 111 "Invalid Value" 110 "Invalid Value" 109 "Invalid Value" 108 "Invalid Value" 107 "Invalid Value" 106 "Invalid Value" 105 "Invalid Value" 104 "Invalid Value" 103 "Invalid Value" 102 "Invalid Value" 101 "Invalid Value" 100 "Invalid Value" 99 "Invalid Value" 98 "Invalid Value" 97 "Invalid Value" 96 "Invalid Value" 95 "Invalid Value" 94 "Invalid Value" 93 "Invalid Value" 92 "Invalid Value" 91 "Invalid Value" 90 "Invalid Value" 89 "Invalid Value" 88 "Invalid Value" 87 "Invalid Value" 86 "Invalid Value" 85 "Invalid Value" 84 "Invalid Value" 83 "Invalid Value" 82 "Invalid Value" 81 "Invalid Value" 80 "Invalid Value" 79 "Invalid Value" 78 "Invalid Value" 77 "Invalid Value" 76 "Invalid Value" 75 "Invalid Value" 74 "Invalid Value" 73 "Invalid Value" 72 "Invalid Value" 71 "Invalid Value" 70 "Invalid Value" 69 "Invalid Value" 68 "Invalid Value" 67 "Invalid Value" 66 "Invalid Value" 65 "Invalid Value" 64 "Invalid Value" 63 "Invalid Value" 62 "31.0" 61 "30.5" 60 "30.0" 59 "29.5" 58 "29.0" 57 "28.5" 56 "28.0" 55 "27.5" 54 "27.0" 53 "26.5" 52 "26.0" 51 "25.5" 50 "25.0" 49 "24.5" 48 "24.0" 47 "23.5" 46 "23.0" 45 "22.5" 44 "22.0" 43 "21.5" 42 "21.0" 41 "20.5" 40 "20.0" 39 "19.5" 38 "19.0" 37 "18.5" 36 "18.0" 35 "17.5" 34 "17.0" 33 "16.5" 32 "16.0" 31 "15.5" 30 "15.0" 29 "14.5" 28 "14.0" 27 "13.5" 26 "13.0" 25 "12.5" 24 "12.0" 23 "11.5" 22 "11.0" 21 "10.5" 20 "10.0" 19 "9.5" 18 "9.0" 17 "8.5" 16 "8.0" 15 "7.5" 14 "7.0" 13 "6.5" 12 "6.0" 11 "5.5" 10 "5.0" 9 "4.5" 8 "4.0" 7 "3.5" 6 "3.0" 5 "2.5" 4 "2.0" 3 "1.5" 2 "1.0" 1 "0.5" 0 "0.0" ;
+VAL_ 1855 Obstacle_Valid 2 "Older valid" 1 "New valid " ;
+VAL_ 1855 Blinker_Info 4 "Both" 3 "Right" 2 "Left" 1 "Off" 0 "unavailable" ;
+VAL_ 1855 Cut_in_and_out 4 "cut_out " 3 "cut_in " 2 "out_host_lane " 1 "in_host_lane " 0 "undefined " ;
+VAL_ 1855 Obstacle_Brake_Lights 1 "object's brake lights are on" 0 "object's brake lights are off" ;
+VAL_ 1855 Obstacle_Status 6 "Unused" 5 "Parked " 4 "Oncoming" 3 "Moving" 2 "Stopped " 1 "Standing" 0 "Unused" ;
+VAL_ 1855 Obstacle_Type 7 "Unused" 6 "Unused" 5 "Unused" 4 "Bicycle" 3 "Ped" 2 "Bike" 1 "Truck" 0 "Vehicle" ;
+VAL_ 1854 Obstacle_Replaced 1 "Replace in this frame" 0 "Not replaced in this frame" ;
+VAL_ 1853 Radar_Match_Confidence 5 "high confidence match" 4 "vision  - radar match" 3 "vision  - radar match" 2 "vision  - radar match" 1 "Multi match" 0 "No match" ;
+VAL_ 1853 CIPV_Flag 1 "CIPV" 0 "Not CIPV" ;
+VAL_ 1853 Obstacle_Lane 3 "Invalid signal" 2 "Next lane " 1 "Ego lane" 0 "Not assigned" ;
+VAL_ 1853 Obstacle_Length 255 "Invalid Value" 254 "Invalid Value" 253 "Invalid Value" 252 "Invalid Value" 251 "Invalid Value" 250 "Invalid Value" 249 "Invalid Value" 248 "Invalid Value" 247 "Invalid Value" 246 "Invalid Value" 245 "Invalid Value" 244 "Invalid Value" 243 "Invalid Value" 242 "Invalid Value" 241 "Invalid Value" 240 "Invalid Value" 239 "Invalid Value" 238 "Invalid Value" 237 "Invalid Value" 236 "Invalid Value" 235 "Invalid Value" 234 "Invalid Value" 233 "Invalid Value" 232 "Invalid Value" 231 "Invalid Value" 230 "Invalid Value" 229 "Invalid Value" 228 "Invalid Value" 227 "Invalid Value" 226 "Invalid Value" 225 "Invalid Value" 224 "Invalid Value" 223 "Invalid Value" 222 "Invalid Value" 221 "Invalid Value" 220 "Invalid Value" 219 "Invalid Value" 218 "Invalid Value" 217 "Invalid Value" 216 "Invalid Value" 215 "Invalid Value" 214 "Invalid Value" 213 "Invalid Value" 212 "Invalid Value" 211 "Invalid Value" 210 "Invalid Value" 209 "Invalid Value" 208 "Invalid Value" 207 "Invalid Value" 206 "Invalid Value" 205 "Invalid Value" 204 "Invalid Value" 203 "Invalid Value" 202 "Invalid Value" 201 "Invalid Value" 200 "Invalid Value" 199 "Invalid Value" 198 "Invalid Value" 197 "Invalid Value" 196 "Invalid Value" 195 "Invalid Value" 194 "Invalid Value" 193 "Invalid Value" 192 "Invalid Value" 191 "Invalid Value" 190 "Invalid Value" 189 "Invalid Value" 188 "Invalid Value" 187 "Invalid Value" 186 "Invalid Value" 185 "Invalid Value" 184 "Invalid Value" 183 "Invalid Value" 182 "Invalid Value" 181 "Invalid Value" 180 "Invalid Value" 179 "Invalid Value" 178 "Invalid Value" 177 "Invalid Value" 176 "Invalid Value" 175 "Invalid Value" 174 "Invalid Value" 173 "Invalid Value" 172 "Invalid Value" 171 "Invalid Value" 170 "Invalid Value" 169 "Invalid Value" 168 "Invalid Value" 167 "Invalid Value" 166 "Invalid Value" 165 "Invalid Value" 164 "Invalid Value" 163 "Invalid Value" 162 "Invalid Value" 161 "Invalid Value" 160 "Invalid Value" 159 "Invalid Value" 158 "Invalid Value" 157 "Invalid Value" 156 "Invalid Value" 155 "Invalid Value" 154 "Invalid Value" 153 "Invalid Value" 152 "Invalid Value" 151 "Invalid Value" 150 "Invalid Value" 149 "Invalid Value" 148 "Invalid Value" 147 "Invalid Value" 146 "Invalid Value" 145 "Invalid Value" 144 "Invalid Value" 143 "Invalid Value" 142 "Invalid Value" 141 "Invalid Value" 140 "Invalid Value" 139 "Invalid Value" 138 "Invalid Value" 137 "Invalid Value" 136 "Invalid Value" 135 "Invalid Value" 134 "Invalid Value" 133 "Invalid Value" 132 "Invalid Value" 131 "Invalid Value" 130 "Invalid Value" 129 "Invalid Value" 128 "Invalid Value" 127 "Invalid Value" 126 "Invalid Value" 125 "Invalid Value" 124 "Invalid Value" 123 "Invalid Value" 122 "Invalid Value" 121 "Invalid Value" 120 "Invalid Value" 119 "Invalid Value" 118 "Invalid Value" 117 "Invalid Value" 116 "Invalid Value" 115 "Invalid Value" 114 "Invalid Value" 113 "Invalid Value" 112 "Invalid Value" 111 "Invalid Value" 110 "Invalid Value" 109 "Invalid Value" 108 "Invalid Value" 107 "Invalid Value" 106 "Invalid Value" 105 "Invalid Value" 104 "Invalid Value" 103 "Invalid Value" 102 "Invalid Value" 101 "Invalid Value" 100 "Invalid Value" 99 "Invalid Value" 98 "Invalid Value" 97 "Invalid Value" 96 "Invalid Value" 95 "Invalid Value" 94 "Invalid Value" 93 "Invalid Value" 92 "Invalid Value" 91 "Invalid Value" 90 "Invalid Value" 89 "Invalid Value" 88 "Invalid Value" 87 "Invalid Value" 86 "Invalid Value" 85 "Invalid Value" 84 "Invalid Value" 83 "Invalid Value" 82 "Invalid Value" 81 "Invalid Value" 80 "Invalid Value" 79 "Invalid Value" 78 "Invalid Value" 77 "Invalid Value" 76 "Invalid Value" 75 "Invalid Value" 74 "Invalid Value" 73 "Invalid Value" 72 "Invalid Value" 71 "Invalid Value" 70 "Invalid Value" 69 "Invalid Value" 68 "Invalid Value" 67 "Invalid Value" 66 "Invalid Value" 65 "Invalid Value" 64 "Invalid Value" 63 "Invalid Value" 62 "31.0" 61 "30.5" 60 "30.0" 59 "29.5" 58 "29.0" 57 "28.5" 56 "28.0" 55 "27.5" 54 "27.0" 53 "26.5" 52 "26.0" 51 "25.5" 50 "25.0" 49 "24.5" 48 "24.0" 47 "23.5" 46 "23.0" 45 "22.5" 44 "22.0" 43 "21.5" 42 "21.0" 41 "20.5" 40 "20.0" 39 "19.5" 38 "19.0" 37 "18.5" 36 "18.0" 35 "17.5" 34 "17.0" 33 "16.5" 32 "16.0" 31 "15.5" 30 "15.0" 29 "14.5" 28 "14.0" 27 "13.5" 26 "13.0" 25 "12.5" 24 "12.0" 23 "11.5" 22 "11.0" 21 "10.5" 20 "10.0" 19 "9.5" 18 "9.0" 17 "8.5" 16 "8.0" 15 "7.5" 14 "7.0" 13 "6.5" 12 "6.0" 11 "5.5" 10 "5.0" 9 "4.5" 8 "4.0" 7 "3.5" 6 "3.0" 5 "2.5" 4 "2.0" 3 "1.5" 2 "1.0" 1 "0.5" 0 "0.0" ;
+VAL_ 1852 Obstacle_Valid 2 "Older valid" 1 "New valid " ;
+VAL_ 1852 Blinker_Info 4 "Both" 3 "Right" 2 "Left" 1 "Off" 0 "unavailable" ;
+VAL_ 1852 Cut_in_and_out 4 "cut_out " 3 "cut_in " 2 "out_host_lane " 1 "in_host_lane " 0 "undefined " ;
+VAL_ 1852 Obstacle_Brake_Lights 1 "object's brake lights are on" 0 "object's brake lights are off" ;
+VAL_ 1852 Obstacle_Status 6 "Unused" 5 "Parked " 4 "Oncoming" 3 "Moving" 2 "Stopped " 1 "Standing" 0 "Unused" ;
+VAL_ 1852 Obstacle_Type 7 "Unused" 6 "Unused" 5 "Unused" 4 "Bicycle" 3 "Ped" 2 "Bike" 1 "Truck" 0 "Vehicle" ;
+VAL_ 1851 Obstacle_Replaced 1 "Replace in this frame" 0 "Not replaced in this frame" ;
+VAL_ 1850 Radar_Match_Confidence 5 "high confidence match" 4 "vision  - radar match" 3 "vision  - radar match" 2 "vision  - radar match" 1 "Multi match" 0 "No match" ;
+VAL_ 1850 CIPV_Flag 1 "CIPV" 0 "Not CIPV" ;
+VAL_ 1850 Obstacle_Lane 3 "Invalid signal" 2 "Next lane " 1 "Ego lane" 0 "Not assigned" ;
+VAL_ 1850 Obstacle_Length 255 "Invalid Value" 254 "Invalid Value" 253 "Invalid Value" 252 "Invalid Value" 251 "Invalid Value" 250 "Invalid Value" 249 "Invalid Value" 248 "Invalid Value" 247 "Invalid Value" 246 "Invalid Value" 245 "Invalid Value" 244 "Invalid Value" 243 "Invalid Value" 242 "Invalid Value" 241 "Invalid Value" 240 "Invalid Value" 239 "Invalid Value" 238 "Invalid Value" 237 "Invalid Value" 236 "Invalid Value" 235 "Invalid Value" 234 "Invalid Value" 233 "Invalid Value" 232 "Invalid Value" 231 "Invalid Value" 230 "Invalid Value" 229 "Invalid Value" 228 "Invalid Value" 227 "Invalid Value" 226 "Invalid Value" 225 "Invalid Value" 224 "Invalid Value" 223 "Invalid Value" 222 "Invalid Value" 221 "Invalid Value" 220 "Invalid Value" 219 "Invalid Value" 218 "Invalid Value" 217 "Invalid Value" 216 "Invalid Value" 215 "Invalid Value" 214 "Invalid Value" 213 "Invalid Value" 212 "Invalid Value" 211 "Invalid Value" 210 "Invalid Value" 209 "Invalid Value" 208 "Invalid Value" 207 "Invalid Value" 206 "Invalid Value" 205 "Invalid Value" 204 "Invalid Value" 203 "Invalid Value" 202 "Invalid Value" 201 "Invalid Value" 200 "Invalid Value" 199 "Invalid Value" 198 "Invalid Value" 197 "Invalid Value" 196 "Invalid Value" 195 "Invalid Value" 194 "Invalid Value" 193 "Invalid Value" 192 "Invalid Value" 191 "Invalid Value" 190 "Invalid Value" 189 "Invalid Value" 188 "Invalid Value" 187 "Invalid Value" 186 "Invalid Value" 185 "Invalid Value" 184 "Invalid Value" 183 "Invalid Value" 182 "Invalid Value" 181 "Invalid Value" 180 "Invalid Value" 179 "Invalid Value" 178 "Invalid Value" 177 "Invalid Value" 176 "Invalid Value" 175 "Invalid Value" 174 "Invalid Value" 173 "Invalid Value" 172 "Invalid Value" 171 "Invalid Value" 170 "Invalid Value" 169 "Invalid Value" 168 "Invalid Value" 167 "Invalid Value" 166 "Invalid Value" 165 "Invalid Value" 164 "Invalid Value" 163 "Invalid Value" 162 "Invalid Value" 161 "Invalid Value" 160 "Invalid Value" 159 "Invalid Value" 158 "Invalid Value" 157 "Invalid Value" 156 "Invalid Value" 155 "Invalid Value" 154 "Invalid Value" 153 "Invalid Value" 152 "Invalid Value" 151 "Invalid Value" 150 "Invalid Value" 149 "Invalid Value" 148 "Invalid Value" 147 "Invalid Value" 146 "Invalid Value" 145 "Invalid Value" 144 "Invalid Value" 143 "Invalid Value" 142 "Invalid Value" 141 "Invalid Value" 140 "Invalid Value" 139 "Invalid Value" 138 "Invalid Value" 137 "Invalid Value" 136 "Invalid Value" 135 "Invalid Value" 134 "Invalid Value" 133 "Invalid Value" 132 "Invalid Value" 131 "Invalid Value" 130 "Invalid Value" 129 "Invalid Value" 128 "Invalid Value" 127 "Invalid Value" 126 "Invalid Value" 125 "Invalid Value" 124 "Invalid Value" 123 "Invalid Value" 122 "Invalid Value" 121 "Invalid Value" 120 "Invalid Value" 119 "Invalid Value" 118 "Invalid Value" 117 "Invalid Value" 116 "Invalid Value" 115 "Invalid Value" 114 "Invalid Value" 113 "Invalid Value" 112 "Invalid Value" 111 "Invalid Value" 110 "Invalid Value" 109 "Invalid Value" 108 "Invalid Value" 107 "Invalid Value" 106 "Invalid Value" 105 "Invalid Value" 104 "Invalid Value" 103 "Invalid Value" 102 "Invalid Value" 101 "Invalid Value" 100 "Invalid Value" 99 "Invalid Value" 98 "Invalid Value" 97 "Invalid Value" 96 "Invalid Value" 95 "Invalid Value" 94 "Invalid Value" 93 "Invalid Value" 92 "Invalid Value" 91 "Invalid Value" 90 "Invalid Value" 89 "Invalid Value" 88 "Invalid Value" 87 "Invalid Value" 86 "Invalid Value" 85 "Invalid Value" 84 "Invalid Value" 83 "Invalid Value" 82 "Invalid Value" 81 "Invalid Value" 80 "Invalid Value" 79 "Invalid Value" 78 "Invalid Value" 77 "Invalid Value" 76 "Invalid Value" 75 "Invalid Value" 74 "Invalid Value" 73 "Invalid Value" 72 "Invalid Value" 71 "Invalid Value" 70 "Invalid Value" 69 "Invalid Value" 68 "Invalid Value" 67 "Invalid Value" 66 "Invalid Value" 65 "Invalid Value" 64 "Invalid Value" 63 "Invalid Value" 62 "31.0" 61 "30.5" 60 "30.0" 59 "29.5" 58 "29.0" 57 "28.5" 56 "28.0" 55 "27.5" 54 "27.0" 53 "26.5" 52 "26.0" 51 "25.5" 50 "25.0" 49 "24.5" 48 "24.0" 47 "23.5" 46 "23.0" 45 "22.5" 44 "22.0" 43 "21.5" 42 "21.0" 41 "20.5" 40 "20.0" 39 "19.5" 38 "19.0" 37 "18.5" 36 "18.0" 35 "17.5" 34 "17.0" 33 "16.5" 32 "16.0" 31 "15.5" 30 "15.0" 29 "14.5" 28 "14.0" 27 "13.5" 26 "13.0" 25 "12.5" 24 "12.0" 23 "11.5" 22 "11.0" 21 "10.5" 20 "10.0" 19 "9.5" 18 "9.0" 17 "8.5" 16 "8.0" 15 "7.5" 14 "7.0" 13 "6.5" 12 "6.0" 11 "5.5" 10 "5.0" 9 "4.5" 8 "4.0" 7 "3.5" 6 "3.0" 5 "2.5" 4 "2.0" 3 "1.5" 2 "1.0" 1 "0.5" 0 "0.0" ;
+VAL_ 1849 Obstacle_Valid 2 "Older valid" 1 "New valid " ;
+VAL_ 1849 Blinker_Info 4 "Both" 3 "Right" 2 "Left" 1 "Off" 0 "unavailable" ;
+VAL_ 1849 Cut_in_and_out 4 "cut_out " 3 "cut_in " 2 "out_host_lane " 1 "in_host_lane " 0 "undefined " ;
+VAL_ 1849 Obstacle_Brake_Lights 1 "object's brake lights are on" 0 "object's brake lights are off" ;
+VAL_ 1849 Obstacle_Status 6 "Unused" 5 "Parked " 4 "Oncoming" 3 "Moving" 2 "Stopped " 1 "Standing" 0 "Unused" ;
+VAL_ 1849 Obstacle_Type 7 "Unused" 6 "Unused" 5 "Unused" 4 "Bicycle" 3 "Ped" 2 "Bike" 1 "Truck" 0 "Vehicle" ;
+VAL_ 1848 Failsafe 15 "Unused" 14 "Unused" 13 "Unused" 12 "Unused" 11 "Unused" 10 "Unused" 9 "Unused" 7 "Unused" 6 "Unused" 5 "Unused" 3 "Unused" 8 "Unused" 4 "Unused" 2 "Blur Image" 1 "Low Sun" 0 "No Failsafe" ;
+VAL_ 1848 Close_car 1 "Close car exists" 0 "No close car" ;
+VAL_ 1848 GO 13 "unused" 12 "unused" 11 "unused" 10 "unused" 9 "unused" 8 "unused" 7 "unused" 6 "unused" 5 "unused" 4 "unused" 3 "Driver decision is required" 2 "Undecided" 15 "Not Calculated " 1 "GO!" 0 "Stop" ;
+VAL_ 1848 Right_close_rang_cut_in 1 "True" 0 "False" ;
+VAL_ 1848 Left_close_rang_cut_in 1 "True" 0 "False" ;
+VAL_ 1847 Left_LDW_Availability 1 "Available" 0 "Unavailable" ;
+VAL_ 1847 Right_LDW_Availability 1 "Available" 0 "Unavailable" ;
+VAL_ 1847 CA_Construction_Area 1 "True" 0 "False" ;
+SIG_VALTYPE_ 1616 Fixed_Horizon : 1;
+SIG_VALTYPE_ 1616 Fixed_Yaw : 1;

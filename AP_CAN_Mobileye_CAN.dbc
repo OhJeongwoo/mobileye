@@ -1,0 +1,130 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 534 Auto_Mode: 8 Vector__XXX
+ SG_ Longitudinal_mode_Cmd : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Lateral_mode_Cmd : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1897 Right_Lane_InfoB: 8 Vector__XXX
+ SG_ Right_Lane_View_Range : 16|15@1+ (0.00390625,0) [0|127.996] "" Vector__XXX
+ SG_ Right_Lane_Heading_Angle : 0|16@1+ (0.00097656,-31.9990234) [-0.357|0.357] "" Vector__XXX
+
+BO_ 1896 Right_Lane_InfoA: 8 Vector__XXX
+ SG_ Right_Lane_Width_marking : 56|8@1+ (0.01,0) [0|2.5] "" Vector__XXX
+ SG_ Right_Lane_Type : 0|4@1+ (1,0) [0|1000] "" Vector__XXX
+ SG_ Right_Lane_Quality : 4|2@1+ (1,0) [0|1000] "" Vector__XXX
+ SG_ Right_Lane_Position : 8|16@1- (0.00390625,0) [-127|128] "" Vector__XXX
+ SG_ Right_Lane_Curvature_Derivative : 40|16@1+ (3.7252903E-009,-0.00012206659) [-0.00012|0.00012] "" Vector__XXX
+ SG_ Right_Lane_Curvature : 24|16@1+ (9.7656E-007,-0.0319989415) [-0.02|0.02] "" Vector__XXX
+
+BO_ 1895 Left_Lane_InfoB: 8 Vector__XXX
+ SG_ Left_Lane_View_Range : 16|15@1+ (0.00390625,0) [0|127.996] "meter" Vector__XXX
+ SG_ Left_Lane_Heading_Angle : 0|16@1+ (0.00097656,-31.9990234) [-0.357|0.357] "radians" Vector__XXX
+
+BO_ 1894 Left_Lane_InfoA: 8 Vector__XXX
+ SG_ Left_Lane_Width_marking : 56|8@1+ (0.01,0) [0|2.5] "" Vector__XXX
+ SG_ Left_Lane_Type : 0|4@1+ (1,0) [0|1000] "" Vector__XXX
+ SG_ Left_Lane_Quality : 4|2@1+ (1,0) [0|1000] "" Vector__XXX
+ SG_ Left_Lane_Position : 8|16@1- (0.00390625,0) [-127|128] "m" Vector__XXX
+ SG_ Left_Lane_Curvature_Derivative : 40|16@1+ (3.7252903E-009,-0.00012206659) [-0.00012|0.00012] "" Vector__XXX
+ SG_ Left_Lane_Curvature : 24|16@1+ (9.7656E-007,-0.0319989415) [-0.02|0.02] "" Vector__XXX
+
+BO_ 533 Lane_Info_Tuning_2: 8 Vector__XXX
+ SG_ dt_AP : 16|8@1+ (0.001,0) [0|0.255] "" Vector__XXX
+ SG_ max_preview : 0|16@1+ (0.01,0) [0|655.35] "" Vector__XXX
+
+BO_ 532 Lane_Info_Tuning_1: 8 Vector__XXX
+ SG_ R_gain_mid : 48|16@1+ (0.1,0) [0|6553.5] "" Vector__XXX
+ SG_ R_gain_low : 32|16@1+ (0.01,0) [0|655.35] "" Vector__XXX
+ SG_ R_gain_high : 16|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Q_gain : 0|16@1+ (0.01,0) [0|655.35] "" Vector__XXX
+
+BO_ 529 Parameter_Lateral_2: 8 Vector__XXX
+ SG_ dSWA_max : 48|16@1+ (0.05,0) [0|3276.75] "" Vector__XXX
+ SG_ SWA_max : 32|16@1+ (0.01,0) [0|655.35] "" Vector__XXX
+ SG_ L_wheelbase : 16|16@1+ (0.01,0) [0|655.35] "" Vector__XXX
+ SG_ N_gear : 0|16@1+ (0.01,0) [0|655.35] "" Vector__XXX
+
+BO_ 528 Parameter_Lateral_1: 8 Vector__XXX
+ SG_ dt_MCU : 56|8@1+ (0.001,0) [0|0.255] "" Vector__XXX
+ SG_ tau : 48|8@1+ (0.01,0) [0|2.55] "" Vector__XXX
+ SG_ K_vx : 32|16@1+ (0.01,0) [0|655.35] "" Vector__XXX
+ SG_ L_max : 16|16@1+ (0.01,0) [0|655.35] "" Vector__XXX
+ SG_ L_min : 0|16@1+ (0.01,0) [0|655.35] "" Vector__XXX
+
+BO_ 256 Command_CAN: 8 Vector__XXX
+ SG_ v_desired : 16|16@1- (0.01,0) [-327.68|327.67] "" Vector__XXX
+ SG_ a_desired : 0|16@1- (0.01,0) [-327.68|327.67] "" Vector__XXX
+
+BO_ 512 Parameter: 8 Vector__XXX
+ SG_ EPSILON : 32|16@1+ (0.01,0) [0|655.35] "" Vector__XXX
+ SG_ Ki : 16|16@1+ (0.01,0) [0|655.35] "" Vector__XXX
+ SG_ Kp : 0|16@1+ (0.01,0) [0|655.35] "" Vector__XXX
+ SG_ Long_flag : 48|1@1+ (1,0) [0|1] "" Vector__XXX
+
+
+
+BA_DEF_ SG_  "GenSigStartValue" FLOAT 0 0;
+BA_DEF_ BO_  "GenMsgDelayTime" INT 0 0;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 0;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Cyclic","Event","CyclicIfActive","SpontanWithDelay","CyclicAndSpontan","CyclicAndSpontanWithDelay";
+BA_DEF_ BO_  "VFrameFormat" ENUM  "StandardCAN","ExtendedCAN","reserved","J1939PG","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","StandardCAN_FD","ExtendedCAN_FD";
+BA_DEF_  "DBName" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_DEF_DEF_  "GenMsgDelayTime" 0;
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "GenMsgSendType" "Cyclic";
+BA_DEF_DEF_  "VFrameFormat" "StandardCAN";
+BA_DEF_DEF_  "DBName" "Cluster";
+BA_DEF_DEF_  "BusType" "CAN";
+BA_ "BusType" "CAN";
+BA_ "DBName" "AP_CAN";
+BA_ "VFrameFormat" BO_ 256 0;
+BA_ "GenMsgSendType" BO_ 256 0;
+BA_ "GenMsgCycleTime" BO_ 256 100;
+BA_ "VFrameFormat" BO_ 512 0;
+BA_ "GenMsgSendType" BO_ 512 0;
+BA_ "GenMsgCycleTime" BO_ 512 100;
+BA_ "GenSigStartValue" SG_ 1897 Right_Lane_Heading_Angle 32767.0838453346;
+BA_ "GenSigStartValue" SG_ 1896 Right_Lane_Curvature_Derivative 32767.0007354863;
+BA_ "GenSigStartValue" SG_ 1896 Right_Lane_Curvature 32766.9999795199;
+BA_ "GenSigStartValue" SG_ 1895 Left_Lane_Heading_Angle 32767.0838453346;
+BA_ "GenSigStartValue" SG_ 1894 Left_Lane_Curvature_Derivative 32767.0007354863;
+BA_ "GenSigStartValue" SG_ 1894 Left_Lane_Curvature 32766.9999795199;
+
