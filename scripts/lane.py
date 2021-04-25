@@ -9,3 +9,18 @@ class Lane:
         self.marking_width = 0.0
         self.view_range = 0.0
         self.view_range_availability = False
+
+    def get_lane(self):
+        rt = {}
+        
+        rt['lane_type'] = self.lane_type
+        rt['quality'] = self.quality
+        rt['c0'] = self.c0
+        rt['c1'] = self.c1
+        rt['c2'] = self.c2
+        rt['c3'] = self.c3
+        rt['marking_width'] = self.marking_width
+        rt['view_range'] = self.view_range
+        rt['view_range_availability'] = self.view_range_availability
+
+        return rt

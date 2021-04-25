@@ -1,5 +1,6 @@
 from message import Message
 from lane import Lane
+from obstacle import Obstacle
 
 INIT = 0x700
 LEFT_LANE_A = 0x766
@@ -9,6 +10,10 @@ RIGHT_LANE_B = 0x769
 NEXT_LANE_INFO = 0x76b
 NEXT_LANE_A = 0x76c
 NEXT_LANE_B = 0x76d
+OBSTACLE_INFO = 0x738
+OBSTACLE_A = 0x739
+OBSTACLE_B = 0x73a
+OBSTACLE_C = 0x73b
 
 def sign_extend(value, bits):
     sign_bit = 1 << (bits - 1)
@@ -64,3 +69,51 @@ def decode_lane(LaneA, LaneB):
 def decode_next_lane_info(msg):
     signal = get_signal(msg=msg, offset=0, size=8)
     return signal
+
+def decode_obstacle_info(msg):
+    signal =  get_signal(msg=msg, offset=0, size=8)
+    return signal
+
+def decode_obstacle(ObstacleA, ObstacleB, ObstacleC):
+    rt = Obstacle()
+
+    signal = get_signal(msg=ObstacleA, offset=0, size=8)
+    rt.id = signal
+
+    signal = get_signal(msg=ObstacleA, offset=52, size=3)
+    rt.type = signal
+    
+    signal = get_signal(msg=ObstacleA, offset=56, size=3)
+    rt.status = signal
+
+    signal = get_signal(msg=ObstacleB, offset=16, size=8)
+    rt.age = signal
+
+    signal = get_signal(msg=ObstacleB, offset=8, size=8)
+    rt.width = float(signal) * 0.05
+
+    signal = get_signal(msg=ObstacleB, offset=0, size=8)
+    rt.length = float(signal) * 0.5
+
+    signal = get_signal(msg=ObstacleA, offset=8, size=12)
+    rt.x = float(signal) * 0.0625
+
+    signal = get_signal(msg=ObstacleA, offset=24, size=10)
+    rt.y = float(sign_extend(signal, 10)) * 0.0625
+
+    signal = get_signal(msg=ObstacleA, offset=40, size=12)
+    rt.vel = float(sign_extend(signal, 12)) * 0.0625
+
+    signal = get_signal(msg=ObstacleC, offset=32, size=10)
+    rt.accel = float(sign_extend(signal, 10)) * 0.03
+
+    signal = get_signal(msg=ObstacleC, offset=48, size=16)
+    rt.theta = float(sign_extend(signal, 16)) * 0.01
+
+    signal = get_signal(msg=ObstacleC, offset=0, size=16)
+    rt.omega = float(sign_extend(signal, 16)) * 0.01
+
+    signal = get_signal(msg=ObstacleC, offset=16, size=16)
+    rt.scale_rate = float(sign_extend(signal, 16)) * 0.0002
+
+    return rt

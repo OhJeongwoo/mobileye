@@ -1,7 +1,16 @@
 import os
+import json
+import datetime
 import utils
 from message import Message
 from data import Data
+
+
+author = "jeongwoooh"
+email = "jeongwoo.oh@rllab.snu.ac.kr"
+copy_right = "RLLAB@SNU"
+date = datetime.datetime.now().strftime("%Y-%m-%d")
+print(date)
 
 project_path = os.path.dirname(os.path.abspath(os.path.dirname(__file__)))
 input_path = project_path + "/data/mini_trace.trc"
@@ -55,5 +64,15 @@ N = len(data)
 for i in range(N):
     data[i].decode_data()
 
-save_path = project_path + "/save.pkl"
-#save(data, save_path)
+save_file = {}
+save_file['author'] = author
+save_file['email'] = email
+save_file['copyright'] = copy_right
+save_file['date'] = date
+save_file['data'] = {'size': len(data),
+                     'data': [d.get_data() for d in data]}
+
+save_path = project_path + "/result.json"
+
+with open(save_path, 'w') as outfile:
+    json.dump(save_file, outfile, indent=4)

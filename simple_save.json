@@ -1,0 +1,75 @@
+{
+    "lane": {
+        "left_lane": {
+            "view_range": 0.0, 
+            "lane_type": 2, 
+            "marking_width": 0.0, 
+            "c3": 1.3597282196000033e-06, 
+            "c2": -0.00030859293999999787, 
+            "c1": -0.07039419999999907, 
+            "c0": -1.47265625, 
+            "quality": 0, 
+            "view_range_availability": true
+        }, 
+        "right_lane": {
+            "view_range": 15.0546875, 
+            "lane_type": 0, 
+            "marking_width": 0.15, 
+            "c3": 1.22711035083e-05, 
+            "c2": 0.003358389859999998, 
+            "c1": -0.05672235999999842, 
+            "c0": 1.8046875, 
+            "quality": 3, 
+            "view_range_availability": true
+        }, 
+        "next_lane": {
+            "next_lanes": [
+                {
+                    "view_range": 0.0, 
+                    "lane_type": 1, 
+                    "marking_width": 0.44, 
+                    "c3": -2.739899981701009e-12, 
+                    "c2": -0.0027324148600000008, 
+                    "c1": 0.16398020000000457, 
+                    "c0": -3.31640625, 
+                    "quality": 0, 
+                    "view_range_availability": true
+                }, 
+                {
+                    "view_range": 0.0, 
+                    "lane_type": 2, 
+                    "marking_width": 0.15, 
+                    "c3": -2.739899981701009e-12, 
+                    "c2": 2.000000165480742e-11, 
+                    "c1": -0.02547243999999793, 
+                    "c0": 3.24609375, 
+                    "quality": 0, 
+                    "view_range_availability": true
+                }
+            ], 
+            "size": 2
+        }
+    }, 
+    "obstacle": {
+        "obstacles": [
+            {
+                "status": 3, 
+                "scale_rate": -0.1728, 
+                "omega": -5.33, 
+                "age": 29, 
+                "accel": 0.0, 
+                "width": 2.2, 
+                "length": 31.5, 
+                "theta": 7.61, 
+                "y": -15.3125, 
+                "x": 114.625, 
+                "vel": 17.6875, 
+                "type": 0, 
+                "id": 25
+            }
+        ], 
+        "size": 3
+    }, 
+    "seq": 1, 
+    "time": 197616.967
+}
